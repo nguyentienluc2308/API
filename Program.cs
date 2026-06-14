@@ -18,9 +18,9 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Configure SQL Server Database Context
+// Configure PostgreSQL Database Context
 builder.Services.AddDbContext<CourseDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Register DI services
 builder.Services.AddScoped<IEventPublisher, EventPublisher>();
