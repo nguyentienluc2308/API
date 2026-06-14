@@ -1,0 +1,38 @@
+## Ignore Visual Studio temporary files, build results, and user files
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leases/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userbgimages
+*.usertasks
+
+# User-specific files (MonoDevelop/ActiveState ActiveGo)
+*.userprefs
+
+# Mono auto-generated files
+mono_crash.*
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Local settings
+appsettings.Development.json
+dotnet-tools.json
